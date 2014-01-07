@@ -10,7 +10,7 @@ import java.util.concurrent.BlockingQueue;
 public class Queue {
 
     public static void main(String[] args) {
-        final int COUNT = 5;
+        final int COUNT = 50;
         final int SECONDS_TIMEOUT = 3;
 
         BlockingQueue<Message> queue = new ArrayBlockingQueue<>(COUNT * 2);
